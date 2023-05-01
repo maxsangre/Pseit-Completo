@@ -1,0 +1,15 @@
+Algoritmo ejercicio__1_extra
+	definir nota1, nota2, nota3, prom Como Real
+	escribir "Ingresar su primer nota: "
+	leer nota1
+	escribir "Ingresar su segunda nota: "
+	leer nota2
+	escribir "Ingresar su tercer nota: "
+	leer nota3
+	prom = (nota1 + nota2 + nota3 ) / 3
+ 	Si prom >= 70 Entonces
+		Escribir "Ha Aprobado"
+	SiNo
+		Escribir "Ha desaprobado"
+	Fin Si
+FinAlgoritmo

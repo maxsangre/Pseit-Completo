@@ -1,0 +1,53 @@
+EJERCICIOS DE REPASO GUÍA  2.2
+
+1)Escribir un Pseudocódigo que encuentre y despliegue los números primos entre uno y cien.
+
+2)Hacer un Pseudocodigo que despliegue las tablas de multiplicar.
+
+3)Crea una aplicación que nos pida un día de la semana y que nos diga si es un dia laboral o no
+
+4)Cuenta la cantidad de vocales en forma independiente que se encuentren dentro de un texto introducido por el usuario
+
+5)Serie Gráfica Numérica
+
+Realizar un algoritmo que muestre la siguiente gráfica:
+999999999
+88888888
+7777777
+666666
+55555
+4444
+333
+22
+1
+
+6) Desarrolle un programa que permita leer un número entero mayor a 3 que representa la cantidad de filas y el programa imprima un triángulo con números de acuerdo al número de filas que se ingresa como dato. El triángulo se forma con números, dejando espacios en blanco al inicio de cada fila tal y como se muestra en los ejemplos:
+(*) El programa:
+
+• Debe validar el ingreso del número de filas. Dato mayor o igual a 3.
+• El triángulo tiene tantas filas como indica el dato de entrada, y la cantidad de números que se imprime en cada fila aumenta de dos en dos, en la primera fila hay un solo número, en la segunda fila hay 3 números, en la tercera fila hay 5 números y asi suscesivamente.
+• Los números que se imprimen en cada fila empieza en 1 y van hasta el 9, luego se imprime del cero, uno, dos y hasta el número que corresponda.
+EJEMPLOS 1 :
+
+Filas : 1
+Filas : 0
+Filas : -2
+Filas : 7
+
+            1
+           123
+          12345
+         1234567
+        123456789
+       12345678901
+      1234567890123
+
+7) Realizar un programa que lea un número entero (tamaño del cuadrado) y a partir de él cree un
+cuadrado de asteriscos de ese tamaño. Los asteriscos sólo se verán en el borde del
+cuadrado, en el interior debera mostrar una cruz. Por ejemplo, si se ingresa el número 5 se debe mostrar:
+
+* * * * *
+* X   X *
+*   X   *
+* X   X *
+* * * * *

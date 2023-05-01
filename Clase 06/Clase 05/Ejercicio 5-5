@@ -1,0 +1,10 @@
+Algoritmo SeisCifras
+	num<-""
+	Imprimir "ingresar un numero de 6 cifras"
+	leer num
+	si (longitud(num)=6)
+		imprimir "correcto"
+	sino 
+		imprimir "incorrecto"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	definir a,b,c Como Entero
+	Escribir  "ingrese un numero de 3 cifras: "
+	
+    Leer a           //con esta sentencia obtenemos el primer digito del numero ingresado.
+	b=trunc(a/100)     //con la funcion trunc obtenemos la divison exacta, con esta sentencia obtenemos el ultimo digito.
+	c=a mod 10        //con el operador mod obtenemos el residuo de la division
+	si b==c Entonces  //entonces evaluamos si la variable a es igual a la variable b es capicua, sino no.
+		Escribir "el numero " a, " es un numero capicua."
+	SiNo
+		Escribir "el numero " a, " NO es un numero capicua."
+	FinSi
+FinAlgoritmo

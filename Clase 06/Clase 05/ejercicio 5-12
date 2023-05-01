@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	definir sep, oct, nov, mes como cadena
+	definir num , porc como real
+	Escribir "Ingrese el mes de la compra "
+	leer mes
+	mes = Minusculas(mes)
+	escribir "Ingrese el monto de la compra "
+	leer num
+	sep = 'septiembre'
+	oct = 'octubre'
+	nov = 'noviembre'
+	Si mes = sep o mes = oct o mes = nov Entonces
+		porc = num * 10 / 100
+	   Escribir "El valor de la compra sera: ", num - porc 	
+	SiNo
+		Escribir "No esta dentro de un mes con descuento: " 
+	Fin Si
+FinAlgoritmo
